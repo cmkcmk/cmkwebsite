@@ -320,17 +320,17 @@ nav .menu {
   text-decoration: underline;
 }
 
-.porjectlink {
+.porjectlink a{
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: rgb(169,169,169);
+  color: red;
   text-decoration: underline;
   padding-bottom: 22px;
   padding-top: 15px;
 }
 
-.porjectlink:hover {
+.porjectlink:hover a{
   font-family: Roboto, sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -375,13 +375,13 @@ nav .menu {
     font-weight: 400;
   }
 
-.porjectlink {
+.porjectlink a{
   font-size: 24px;
   padding-bottom: 40px;
   padding-top: 20px;
 }
 
-.porjectlink:hover {
+.porjectlink:hover a{
   font-size: 26px;
 }
 }
@@ -391,7 +391,8 @@ nav .menu {
 /* project pages*/
 
 .wrapper-pr {
-  width: 40%;
+  width: 100%;
+  max-width: 700px;
   margin: 0 auto;
   padding-top: 150px;
 }
@@ -436,11 +437,7 @@ img {
 
 
 @media only screen and (min-width: 768px) {
-  .wrapper-pr {
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 150px;
-  }
+
 
 h1 {
   font-family: Roboto, sans-serif;
@@ -475,9 +472,7 @@ img {
 
 @media only screen and (min-width: 768px) {
 
-  }
-  .wrapper-pr {
-    width: 692px;
+
   }
   .text-project {
     text-align: justify;
