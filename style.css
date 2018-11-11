@@ -598,17 +598,17 @@ img {
   position: relative;
 }
 
-#slider figure img{
+#slider div img{
   width: 20%;
   float: left;
 }
 
-#slider figure img:hover {
+#slider div img:hover {
   cursor: pointer;
 }
 
 
-#slider figure {
+#slider div {
   position: relative;
   width: 500%;
   animation: 20s slider infinite;
