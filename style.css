@@ -330,7 +330,7 @@ nav .menu {
   padding-top: 15px;
 }
 
-.porjectlink:hover a{
+.porjectlink a:hover {
   font-family: Roboto, sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -381,7 +381,7 @@ nav .menu {
   padding-top: 20px;
 }
 
-.porjectlink:hover a{
+.porjectlink a:hover{
   font-size: 26px;
 }
 }
