@@ -639,3 +639,14 @@ img {
     margin: 0 auto;}
 
   }
+
+/* slik slider */
+
+#wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#wrapper img{
+  width: 100%;
+}
